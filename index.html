@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>resto</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" class="">
+
+    <link rel="stylesheet" href="style.css" class="">
+</head>
+
+<body>
+
+    <header>
+
+        <a href="#" class="logo"><i class="fas fa-untensills"></i>resto.</a>
+
+        <nav class="navbar">
+            <a class="active" href="#home" >home</a>
+            <a href="#dishes" class="">dishes</a>
+            <a href="#about" class="">about</a>
+            <a href="#menu" class="">menu</a>
+            <a href="#review" class="">review</a>
+            <a href="#order" class="">order</a>
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+        </div>
+    </header>
+
+<form action="" id="search-form">
+    <input type="search" placeholder="search here..." name="" id="search-box">
+    <label for="search-box" class="fas fa-search"></label>
+     <i class="fas fa-times" id="close"></i>
+</form>
+
+<section class="home" id="home">
+
+    <div class="swiper mySwiper home-slider">
+
+        <div class="swiper-wrapper wrapper">
+
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>our special dish</span>
+                    <h3>Pad Thai</h3>
+                    <p>Stir-fried rice noodles in a tangy tamarind sauce, topped with juicy shrimp, crispy tofu, and crunchy peanuts. A perfect blend of sweet, sour, and savory flavors! 😋🔥🍜</p>
+                    <a href="#" class="btn">order now</a>
+                </div>
+                <div class="image">
+                    <img src="home2.png" alt="">
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>our special dish</span>
+                    <h3>Som Tam</h3>
+                    <p>A spicy, tangy, and refreshing green papaya salad mixed with lime, chili, and fish sauce, topped with crunchy peanuts and dried shrimp. A perfect Thai street food delight! 🌶️🥗😋</p>
+                    <a href="#" class="btn">order now</a>
+                </div>
+                <div class="image">
+                    <img src="home1.png" alt="">
+                </div>
+            </div>
+ 
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>our special dish</span>
+                    <h3>Tom Yum Goong</h3>
+                    <p>A bold and aromatic Thai soup with plump shrimp, infused with lemongrass, lime, and chili. A perfect balance of spicy, sour, and savory flavors in every sip! 🍤🔥🍲</p>
+                    <a href="#" class="btn">order now</a>
+                </div>
+                <div class="image">
+                    <img src="home3.png" alt="">
+                </div>
+            </div>
+
+        </div>
+
+        <div class="swiper-pagination"></div>
+
+    </div>
+</section>
+
+
+
+
+
+<section class="dishes" id="dishes">
+
+    <h3 class="sub-heading"> our dishes </h3>
+    <h1 class="heading"> popular dishes </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="dish6.png" class="img-dish" alt="">
+            <h3>Stir-Fried Basil Seafood</h3>
+            <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-alt"></i>
+            </div>
+            <span>฿125</span>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="dish1.png" class="img-dish"  alt="">
+            <h3>Green Curry</h3>
+            <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-alt"></i>
+            </div>
+            <span>฿125</span>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="dish3.png" class="img-dish" alt="">
+            <h3>Sour Curry</h3>
+            <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-alt"></i>
+            </div>
+            <span>฿125</span>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="dish2.png" class="img-dish" alt="">
+            <h3>Hainanese Chicken Rice</h3>
+            <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-alt"></i>
+            </div>
+            <span>฿125</span>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="dish4.png" class="img-dish" alt="">
+            <h3>Khao Soi</h3>
+            <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-alt"></i>
+            </div>
+            <span>฿125</span>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="dish5.png" class="img-dish" alt="">
+            <h3>Fried Fish with Fish Sauce</h3>
+            <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-alt"></i>
+            </div>
+            <span>฿125</span>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+<section class="about" id="about">
+
+    <h3 class="sub-heading"> about us </h3>
+    <h1 class="heading"> why choose us </h1>
+
+    <div class="row">
+
+        <div class="image">
+
+            <img src="about.png" alt="">
+
+        </div>
+
+        <div class="content">
+
+            <h3>best food in the country</h3>
+            <p>Come and experience the true taste of deliciousness! Every dish is freshly prepared using high-quality 
+                ingredients, carefully selected to bring you the best flavors. Whether it's bold and spicy Thai cuisine, 
+                unique fusion dishes, or homemade meals filled with care, every bite will bring you joy and satisfaction.</p>
+            <p>Don't wait! Visit our restaurant and enjoy the warm atmosphere, or order delivery to have the deliciousness 
+                sent straight to your doorstep. Let’s make every meal even more delightful together!</p>
+            <div class="icon-container">
+                <div class="icons">
+                    <i class="fas fa-shipping-fast"></i>
+                    <span>free delivery</span>
+                </div>
+                <div class="icons">
+                    <i class="fas fa-baht-sign"></i>
+                    <span>easy payments</span>
+                </div>
+                <div class="icons">
+                    <i class="fas fa-headset"></i>
+                    <span>24/7 service</span>
+                </div>
+                <a href="" class="btn">lern more</a>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+<section class="menu" id="menu">
+
+    <h3 class="sub-heading"> our menu </h3>
+    <h1 class="heading"> today's speciality </h1>
+
+    <div class="box-contatiner">
+
+        <div class="box">
+            <div class="image">
+                <img src="m1.jpg" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Spicy Glass Noodle Salad</h3>
+                <p>menu1</p>
+                <a href="#" class="btn">add to cart</a>
+                <span class="price">฿159</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="m2.jpg" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Grilled Chicken</h3>
+                <p>menu2</p>
+                <a href="#" class="btn">add to cart</a>
+                <span class="price">฿159</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="m3.jpg" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Rice Noodles</h3>
+                <p>menu3</p>
+                <a href="#" class="btn">add to cart</a>
+                <span class="price">฿159</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="m4.jpg" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Stir-Fried Basil Pork</h3>
+                <p>menu4</p>
+                <a href="#" class="btn">add to cart</a>
+                <span class="price">฿159</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="m5.jpg" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Spicy Minced Pork Salad</h3>
+                <p>menu5</p>
+                <a href="#" class="btn">add to cart</a>
+                <span class="price">฿159</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="m6.jpg" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Thai Omelette</h3>
+                <p>menu6</p>
+                <a href="#" class="btn">add to cart</a>
+                <span class="price">฿159</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="m7.jpg" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Jungle Curry</h3>
+                <p>menu7</p>
+                <a href="#" class="btn">add to cart</a>
+                <span class="price">฿159</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="m8.jpg" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Thai Pork Satay</h3>
+                <p>menu8</p>
+                <a href="#" class="btn">add to cart</a>
+                <span class="price">฿159</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="m9.jpg" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Steamed Curry Fish Custard</h3>
+                <p>menu9</p>
+                <a href="#" class="btn">add to cart</a>
+                <span class="price">฿159</span>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+
+<section class="review" id="review">
+
+    <h3 class="sub-heading"> customer's review </h3>
+    <h1 class="heading"> what they say </h1>
+
+
+    <div class=" swiper-container review-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="pic1.png" alt="">
+                    <div class="user-info">
+                        <h3>Emily Johnson</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>The food is absolutely delicious! Fresh ingredients, rich flavors, and a cozy atmosphere. 
+                    The staff is incredibly friendly and attentive. Truly an amazing dining experience!</p>
+            </div>
+
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="pic2.png" alt="">
+                    <div class="user-info">
+                        <h3>Daniel Brown</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>This place is a food lover’s paradise! Fresh ingredients, authentic flavors, 
+                    and beautifully plated dishes. The service is top-notch. Highly recommended!</p>
+            </div>
+
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="pic3.png" alt="">
+                    <div class="user-info">
+                        <h3>Michael Smith</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>An outstanding restaurant! The menu offers a great variety, every dish is flavorful 
+                    and well-prepared. The presentation is beautiful, and the price is worth the quality. 
+                    Definitely coming back!</p>
+            </div>
+
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="pic4.png" alt="">
+                    <div class="user-info">
+                        <h3>James Wilson</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>Never disappointed whenever I visit! The taste, 
+                    service, and atmosphere are always on point. The food is served quickly, prices are reasonable, 
+                    and the restaurant is lovely. A must-try!</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+<section class="order" id="order">
+
+    <h3 class="sub-heading"> order now </h3>
+    <h1 class="heading"> free and fast </h1>
+
+    <form action="">
+
+        <div class="inputbox">
+            <div class="input">
+                <span>your name</span>
+                <input type="text" placeholder="enter your name">
+            </div>
+            <div class="input">
+                <span>your number</span>
+                <input type="number" placeholder="enter your number">
+            </div>
+        </div>
+
+        <div class="inputbox">
+                <div class="input">
+                <span>your order</span>
+                <input type="text" placeholder="enter food name">
+            </div>
+                <div class="input">
+                <span>additional food</span>
+                <input type="text" placeholder="extra with food">
+            </div>
+        </div>
+
+        <div class="inputbox">
+            <div class="input">
+                <span>how mush</span>
+                <input type="number" placeholder="how many orders">
+            </div>
+            <div class="input">
+                <span>date and time</span>
+                <input type="datetime-local" >
+            </div>
+        </div>
+        
+        <div class="inputbox">
+            <div class="input">
+                <span>your address</span>
+                <textarea name="" placeholder="enter your address" id="" cols="30" rows="10"></textarea>
+            </div>
+            <div class="input">
+                <span>your message</span>
+                <textarea name="" placeholder="enter your message" id="" cols="30" rows="10"></textarea>
+            </div>
+        </div>
+
+        <input type="submit" value="order now" class="btn">
+
+    </form>
+
+</section>
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>locations</h3>
+            <a href="#">Bangkok </a>
+            <a href="#">Phuket </a>
+            <a href="#">Chiang Mai</a>
+            <a href="#">Pattaya (Chonburi)</a>
+            <a href="#">Krabi </a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#">home</a>
+            <a href="#">dishes</a>
+            <a href="#">about</a>
+            <a href="#">menu</a>
+            <a href="#">review</a>
+            <a href="#">order</a>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#">080-197-6260</a>
+            <a href="#">065-085-2018</a>
+            <a href="#">natthawut-pl@rmutp.ac.th</a>
+            <a href="#">natthawutpl519@gmail.com</a>
+            <a href="#">Bangkok, Thailand</a>
+        </div>
+
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#">facebook</a>
+            <a href="#">twitter</a>
+            <a href="#">instagram</a>
+        </div>
+
+    </div>
+
+    <div class="credit"> copyright @ 2025 by <span>natthawut ploypim</span></div>
+
+</section>
+ 
+<div class="loader-container">
+    <img src="loader.gif" alt="">
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script src=script.js></script>
+</body>
+</html>
